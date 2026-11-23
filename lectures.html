@@ -1,0 +1,776 @@
+﻿<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>إيدوتك | منصة المحاضرات الأكاديمية</title><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"outline-variant":"#cbc4d0","inverse-primary":"#d1bcff","primary":"#513e7c","primary-container":"#695696","surface-container-highest":"#e6deff","tertiary":"#005438","tertiary-fixed":"#6ffbbe","on-primary-fixed":"#220c4c","tertiary-fixed-dim":"#4edea3","surface-container-low":"#f7f1ff","on-tertiary-container":"#68f5b8","surface-tint":"#675493","on-background":"#1c1733","surface-container":"#f1ebff","error-container":"#ffdad6","surface-bright":"#fdf8ff","on-primary-fixed-variant":"#4e3c7a","on-secondary-container":"#5f5081","on-surface-variant":"#49454f","primary-fixed-dim":"#d1bcff","primary-fixed":"#e9ddff","on-tertiary":"#ffffff","secondary-fixed":"#eaddff","tertiary-container":"#006f4b","on-secondary-fixed-variant":"#4d3f6f","surface-dim":"#ded5fb","on-secondary-fixed":"#211240","surface-variant":"#e6deff","surface":"#fdf8ff","error":"#ba1a1a","surface-container-high":"#ece4ff","secondary-fixed-dim":"#d0bdf7","on-tertiary-fixed-variant":"#005236","on-primary-container":"#e4d6ff","on-primary":"#ffffff","on-tertiary-fixed":"#002113","on-surface":"#1c1733","outline":"#7a7580","on-error-container":"#93000a","surface-container-lowest":"#ffffff","secondary":"#655688","inverse-on-surface":"#f4eeff","on-secondary":"#ffffff","inverse-surface":"#322c49","secondary-container":"#d8c6ff","on-error":"#ffffff","background":"#fdf8ff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-sm":"0.5rem","margin":"3rem","margin-mobile":"1.25rem","gutter":"1.5rem","space-xl":"2.5rem","space-lg":"1.5rem","space-md":"1rem","space-xs":"0.25rem","gutter-mobile":"1rem"},"fontFamily":{"body-lg":["IBM Plex Sans"],"label-sm":["IBM Plex Sans"],"headline-md":["IBM Plex Sans"],"display-lg-mobile":["IBM Plex Sans"],"headline-xl-mobile":["IBM Plex Sans"],"title-md":["IBM Plex Sans"],"label-md":["IBM Plex Sans"],"headline-xl":["IBM Plex Sans"],"body-md":["IBM Plex Sans"],"title-lg":["IBM Plex Sans"],"display-lg":["IBM Plex Sans"]},"fontSize":{"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"16px","fontWeight":"500"}],"headline-md":["24px",{"lineHeight":"34px","fontWeight":"600"}],"display-lg-mobile":["32px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-xl-mobile":["26px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"600"}],"title-md":["18px",{"lineHeight":"26px","fontWeight":"500"}],"label-md":["13px",{"lineHeight":"18px","fontWeight":"500"}],"headline-xl":["36px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"title-lg":["20px",{"lineHeight":"28px","fontWeight":"500"}],"display-lg":["48px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"700"}]}}}};</script><link rel="stylesheet" href="css/styles.css" />
+</head><body class="bg-surface font-body-lg text-body-lg text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_20px_rgba(105,86,150,0.06)]"><div class="h-20 w-full px-gutter flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-xl"><a class="flex items-center gap-space-sm group" data-path="alrayisiya" href="index.html"><div class="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center text-on-primary shadow-[0_8px_16px_-4px_rgba(105,86,150,0.3)] group-hover:scale-105 transition-transform"><span class="material-symbols-outlined text-title-lg">school</span></div><div class="flex flex-col"><span class="font-title-lg text-title-lg text-primary tracking-tight font-bold">إيدوتك</span><span class="font-label-sm text-label-sm text-on-surface-variant -mt-1">EdTech Platform</span></div></a><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-secondary-container text-on-secondary-container font-title-md rounded-lg"><a class="px-space-md py-space-sm font-title-md text-title-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="alrayisiya" href="index.html">الرئيسية</a><a aria-current="page" class="px-space-md py-space-sm transition-all bg-secondary-container text-on-secondary-container font-title-md rounded-lg" data-path="almohadarat" href="lectures.html">المحاضرات</a><a class="px-space-md py-space-sm font-title-md text-title-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="aldakatira" href="faculty.html">الدكاترة</a><a class="px-space-md py-space-sm font-title-md text-title-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="jadwal-almohadarat" href="schedule.html">جدول المحاضرات</a><a class="px-space-md py-space-sm font-title-md text-title-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="alqa-a-altafa-oliya-walmukalamat" href="classroom.html">القاعة التفاعلية والمكالمات</a><a class="px-space-md py-space-sm font-title-md text-title-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="tawasal-ma-ana" href="contact.html">تواصل معنا</a></nav></div><div class="flex items-center gap-space-md flex-1 max-w-md"><div class="relative w-full"><span class="material-symbols-outlined absolute right-space-md top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none text-title-md">search</span><input class="w-full pr-11 pl-space-md py-space-sm bg-surface-container-low focus:bg-surface-container-lowest rounded-full font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary/25 transition-all" placeholder="ابحث عن محاضرة، أستاذ، أو تخصص..." type="text"/></div></div><div class="flex items-center gap-space-md"><button class="hidden sm:flex items-center gap-space-xs px-space-md py-space-sm bg-surface-container-high hover:bg-surface-variant text-on-surface rounded-full font-label-md text-label-md transition-colors"><span class="material-symbols-outlined text-title-md">login</span><span>تسجيل الدخول</span></button><button id="mobileMenuBtn" aria-label="القائمة" class="xl:hidden flex items-center justify-center w-10 h-10 rounded-full bg-surface-container-high hover:bg-surface-variant text-on-surface transition-colors"><span class="material-symbols-outlined text-title-md">menu</span></button>
+<div class="flex items-center gap-space-sm p-space-xs bg-surface-container-low hover:bg-surface-container rounded-full transition-colors cursor-pointer"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAo4I6ZY5JciCjgtD2n9VhXnZkdcwd7pqwqZmRWNzzTurFcjHZFNuyejI3QHZ_eOz7vg8o3pi72BvqrbIarJV9dYyrUmdzhhMyYz5y9hEuRL0-fB8ml0ZdhujxYCY-XXdjgm7bpncV3cQeMi3F2Pc66W0874Sca32PDmsWc-VIdDfWKJoldbl5SvVWv9x3qu3pccsMHQCf2M8-HTMGgJeci9GDMFunRv-65hDNdjg"/><div class="hidden md:flex flex-col pl-space-sm pr-space-xs text-right"><span class="font-label-md text-label-md text-on-surface font-semibold leading-tight">د. سارة المنصور</span><span class="font-label-sm text-label-sm text-on-surface-variant">عضو هيئة التدريس</span></div></div></div></div></header>
+<!-- Mobile Navigation Drawer & Backdrop -->
+<div id="mobileBackdrop" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-50 opacity-0 pointer-events-none transition-opacity duration-300"></div>
+<div id="mobileDrawer" class="fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] bg-surface-container-lowest z-50 transform translate-x-full transition-transform duration-300 ease-out shadow-2xl flex flex-col p-space-lg justify-between">
+  <div>
+    <div class="flex items-center justify-between pb-space-lg border-b border-outline-variant/30">
+      <div class="flex items-center gap-space-sm">
+        <div class="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center text-on-primary shadow-sm">
+          <span class="material-symbols-outlined text-title-lg">school</span>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-title-lg text-title-lg text-primary tracking-tight font-bold">إيدوتك</span>
+          <span class="font-label-sm text-label-sm text-on-surface-variant -mt-1">EdTech Platform</span>
+        </div>
+      </div>
+      <button id="closeMobileDrawer" class="w-9 h-9 rounded-full bg-surface-container-high hover:bg-surface-container flex items-center justify-center text-on-surface transition-colors">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+    </div>
+    <nav class="flex flex-col gap-space-xs pt-space-lg">
+      <a href="index.html" class="mobile-nav-link flex items-center gap-space-sm px-space-md py-space-sm rounded-xl font-title-md transition-all text-on-surface hover:bg-surface-container-high">
+        <span class="material-symbols-outlined text-primary">home</span>
+        <span>الرئيسية</span>
+      </a>
+      <a href="lectures.html" class="mobile-nav-link flex items-center gap-space-sm px-space-md py-space-sm rounded-xl font-title-md transition-all text-on-surface hover:bg-surface-container-high">
+        <span class="material-symbols-outlined text-primary">video_library</span>
+        <span>المحاضرات</span>
+      </a>
+      <a href="faculty.html" class="mobile-nav-link flex items-center gap-space-sm px-space-md py-space-sm rounded-xl font-title-md transition-all text-on-surface hover:bg-surface-container-high">
+        <span class="material-symbols-outlined text-primary">psychology</span>
+        <span>الدكاترة</span>
+      </a>
+      <a href="schedule.html" class="mobile-nav-link flex items-center gap-space-sm px-space-md py-space-sm rounded-xl font-title-md transition-all text-on-surface hover:bg-surface-container-high">
+        <span class="material-symbols-outlined text-primary">calendar_month</span>
+        <span>جدول المحاضرات</span>
+      </a>
+      <a href="classroom.html" class="mobile-nav-link flex items-center gap-space-sm px-space-md py-space-sm rounded-xl font-title-md transition-all text-on-surface hover:bg-surface-container-high">
+        <span class="material-symbols-outlined text-primary">meeting_room</span>
+        <span>القاعة التفاعلية والمكالمات</span>
+      </a>
+      <a href="contact.html" class="mobile-nav-link flex items-center gap-space-sm px-space-md py-space-sm rounded-xl font-title-md transition-all text-on-surface hover:bg-surface-container-high">
+        <span class="material-symbols-outlined text-primary">contact_support</span>
+        <span>تواصل معنا</span>
+      </a>
+    </nav>
+  </div>
+  <div class="pt-space-md border-t border-outline-variant/30 space-y-space-sm">
+    <button class="open-login-btn w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md font-semibold flex items-center justify-center gap-2 shadow-sm hover:bg-primary-container transition-all">
+      <span class="material-symbols-outlined text-title-md">login</span>
+      <span>تسجيل الدخول</span>
+    </button>
+  </div>
+</div><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<div class="w-full px-gutter py-space-xl space-y-space-xl">
+<!-- Header Section with Key Metrics & Asymmetric Academic Accent -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-low p-space-lg lg:p-space-xl shadow-[0_12px_32px_-8px_rgba(105,86,150,0.06)]">
+<div class="absolute -top-24 -left-20 w-80 h-80 rounded-full bg-primary-fixed/30 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-20 right-1/4 w-60 h-60 rounded-full bg-secondary-fixed/40 blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-space-lg">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-semibold">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+              الفصل الأكاديمي الحالي 2025
+            </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">تحديث فوري للقاعات</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface font-bold tracking-tight">
+            دليل المحاضرات والجلسات الأكاديمية
+          </h1>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            استكشف المحاضرات الحية التفاعلية، والندوات المتخصصة في تكنولوجيا التعليم العالي، مع إمكانية الوصول إلى التسجيلات بجودة فائقة وملفات الأبحاث والشرائح المعرفية المرفقة.
+          </p>
+</div>
+<!-- Metric Badges -->
+<div class="flex flex-wrap sm:flex-nowrap items-center gap-space-md">
+<div class="flex-1 sm:flex-none p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-tertiary-container/15 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-headline-md" style="font-variation-settings: 'FILL' 1;">sensors</span>
+</div>
+<div>
+<span class="block font-headline-md text-headline-md font-bold text-on-surface">1</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">بث مباشر الآن</span>
+</div>
+</div>
+<div class="flex-1 sm:flex-none p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-headline-md">calendar_clock</span>
+</div>
+<div>
+<span class="block font-headline-md text-headline-md font-bold text-on-surface">18</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">محاضرة هذا الأسبوع</span>
+</div>
+</div>
+<div class="flex-1 sm:flex-none p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-headline-md">video_library</span>
+</div>
+<div>
+<span class="block font-headline-md text-headline-md font-bold text-on-surface">142</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">محاضرة مؤرشفة</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Search & Advanced Filter Section -->
+<div class="w-full bg-surface-container-lowest rounded-xl p-space-lg shadow-[0_12px_32px_-8px_rgba(105,86,150,0.05)] space-y-space-lg">
+<!-- Top Row: Instant Search & Sorting -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md items-center">
+<!-- Live Search Field -->
+<div class="lg:col-span-8 relative">
+<span class="material-symbols-outlined absolute right-space-md top-1/2 -translate-y-1/2 text-primary text-title-lg pointer-events-none">search</span>
+<input class="w-full pr-12 pl-space-lg py-3.5 bg-surface-container-low hover:bg-surface-container focus:bg-surface-container-lowest rounded-xl font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none transition-all" id="lectureSearchInput" placeholder="ابحث بالعنوان، الكلمات الدلالية، أستاذ المادة، أو مخرجات التعلم..." type="text"/>
+<button class="hidden absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-on-surface" id="clearSearchBtn">
+<span class="material-symbols-outlined text-title-md">cancel</span>
+</button>
+</div>
+<!-- Sort Select & Layout Toggle -->
+<div class="lg:col-span-4 flex items-center gap-space-sm justify-between lg:justify-end">
+<div class="relative flex-1 sm:flex-initial">
+<select class="w-full sm:w-auto appearance-none pr-space-md pl-10 py-3 bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md rounded-xl focus:outline-none cursor-pointer" id="lectureSortSelect">
+<option value="latest">الترتيب: الأحدث إضافةً</option>
+<option value="nearest">الأقرب موعداً</option>
+<option value="popular">الأكثر تفاعلاً وحضوراً</option>
+<option value="duration">المدة الزمنية (الأطول)</option>
+</select>
+<span class="material-symbols-outlined absolute left-space-sm top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none text-title-md">expand_more</span>
+</div>
+<div class="flex items-center p-1 bg-surface-container-low rounded-xl">
+<button class="p-2 rounded-lg bg-surface-container-lowest text-primary shadow-sm" title="عرض شبكي">
+<span class="material-symbols-outlined text-title-md">grid_view</span>
+</button>
+<button class="p-2 rounded-lg text-on-surface-variant hover:text-primary transition-colors" title="عرض جدولي مفصل">
+<span class="material-symbols-outlined text-title-md">view_agenda</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Quick Status Filters Pill Badges -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant ml-space-xs font-semibold">حالة المحاضرة:</span>
+<button class="filter-status-btn px-space-md py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md transition-all shadow-sm" data-status="all">
+          جميع المحاضرات (6)
+        </button>
+<button class="filter-status-btn px-space-md py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-md text-label-md flex items-center gap-1.5 transition-all" data-status="live">
+<span class="w-2 h-2 rounded-full bg-tertiary-container animate-pulse"></span>
+          بث مباشر الآن (1)
+        </button>
+<button class="filter-status-btn px-space-md py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-md text-label-md flex items-center gap-1.5 transition-all" data-status="upcoming">
+<span class="material-symbols-outlined text-label-md text-secondary">update</span>
+          قادمة ومجدولة (2)
+        </button>
+<button class="filter-status-btn px-space-md py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-md text-label-md flex items-center gap-1.5 transition-all" data-status="recorded">
+<span class="material-symbols-outlined text-label-md text-primary-container">history</span>
+          مسجلة ومؤرشفة (3)
+        </button>
+</div>
+<!-- Specific Academic Filters Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md pt-space-xs">
+<!-- Filter by Professor -->
+<div class="space-y-1.5">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-medium block">أستاذ المادة والمحاضر:</label>
+<div class="relative">
+<select class="w-full appearance-none pr-space-md pl-10 py-2.5 bg-surface-container-low hover:bg-surface-container text-on-surface font-body-md text-body-md rounded-xl focus:outline-none cursor-pointer" id="professorFilter">
+<option value="all">كافة الأساتذة والمشرفين</option>
+<option value="ashraf">د. أشرف البرادعي (أستاذ الذكاء الاصطناعي ونظم LMS)</option>
+<option value="tamer">د. تامر كامل (أستاذ تقنيات الواقع الافتراضي والتعلم النقال)</option>
+<option value="sara">د. سارة عبد الرحمن (خبيرة تصميم المقررات وQM)</option>
+<option value="mahmoud">د. محمود العيسى (أستاذ القياس والتقويم الإلكتروني)</option>
+</select>
+<span class="material-symbols-outlined absolute left-space-sm top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none text-title-md">arrow_drop_down</span>
+</div>
+</div>
+<!-- Filter by Sub-specialty -->
+<div class="space-y-1.5">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-medium block">التخصص الفرعي:</label>
+<div class="relative">
+<select class="w-full appearance-none pr-space-md pl-10 py-2.5 bg-surface-container-low hover:bg-surface-container text-on-surface font-body-md text-body-md rounded-xl focus:outline-none cursor-pointer" id="specialtyFilter">
+<option value="all">كافة التخصصات الفرعية</option>
+<option value="ai">الذكاء الاصطناعي في التعليم</option>
+<option value="instructional-design">تصميم المقررات الإلكترونية وفق QM</option>
+<option value="vr-ar">الواقع المعزز والافتراضي</option>
+<option value="lms">إنتاج الوسائط ونظم التعلم (LMS)</option>
+<option value="assessment">نظم تقويم الطلاب الإلكترونية</option>
+</select>
+<span class="material-symbols-outlined absolute left-space-sm top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none text-title-md">tune</span>
+</div>
+</div>
+<!-- Active Filter Meta & Quick Reset -->
+<div class="flex items-end justify-between gap-space-sm">
+<div class="p-space-sm bg-surface-container-low rounded-xl flex items-center gap-space-sm flex-1">
+<span class="material-symbols-outlined text-primary text-title-md">filter_alt</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant" id="activeCountDisplay">يتم عرض 6 من أصل 6 محاضرات</span>
+</div>
+<button class="px-space-md py-2.5 rounded-xl bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-md text-label-md flex items-center gap-1 transition-colors" id="resetAllFilters">
+<span class="material-symbols-outlined text-label-md">refresh</span>
+<span>إعادة ضبط</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Lecture Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg" id="lecturesGrid">
+<!-- CARD 1: LIVE NOW - Dr. Ashraf -->
+<article class="lecture-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_12px_32px_-8px_rgba(105,86,150,0.06)] hover:shadow-[0_20px_40px_-12px_rgba(105,86,150,0.14)] transition-all" data-professor="ashraf" data-specialty="ai" data-status="live">
+<!-- Thumbnail Container -->
+<div class="relative w-full aspect-video overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern high-tech university lecture hall with futuristic holographic AI interfaces floating above students seated with tablets, ambient lavender and soft violet glow, cinematic soft focus, clean pedagogical environment, luxury academic edtech atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1gVjXM3br6xhH4YJAC8gKj6lfDRhjezuGtF2ASVPK3MW9HIRHMGrXgf4UH8HSbR-P6LlS8fLies_zdivRp5MdaxcBN-5F6-ef0gB8-ho4kqMmtI75DTzEinlRl04Tdx0C1tNDwDnzVbNMO6Kx71QuGQb0R9auH4-X_pM4wiBgK66m3tq7EUgL_2vDA7hTPClFr8fXbkTKNkSUOKYTfexj6J6j18QZag6feU0NXfI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent"></div>
+<!-- Live Indicator Badge -->
+<div class="absolute top-space-sm right-space-sm flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-tertiary-container/90 text-on-tertiary font-label-sm text-label-sm backdrop-blur-md shadow-sm">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-ping"></span>
+<span class="font-semibold">بث مباشر الآن</span>
+</div>
+<!-- Attendance Counter -->
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1 px-space-sm py-1 rounded-full bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm backdrop-blur-md">
+<span class="material-symbols-outlined text-label-md text-tertiary">group</span>
+<span>85 حاضر الآن</span>
+</div>
+<!-- Specialty & Time Bottom Overlay -->
+<div class="absolute bottom-space-sm right-space-sm left-space-sm flex items-center justify-between text-on-primary">
+<span class="px-space-sm py-0.5 rounded-md bg-primary-container/85 font-label-sm text-label-sm backdrop-blur-sm">
+              الذكاء الاصطناعي في التعليم
+            </span>
+<span class="flex items-center gap-1 font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-label-md">schedule</span>
+<span>متبقي 45 دقيقة</span>
+</span>
+</div>
+</div>
+<!-- Card Body -->
+<div class="p-space-lg flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span class="flex items-center gap-1 text-tertiary font-semibold">
+<span class="material-symbols-outlined text-label-md">mic</span>
+                القاعة الافتراضية الرئيسية
+              </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-medium">مستوى متقدم</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold line-clamp-2 leading-snug group-hover:text-primary transition-colors">
+              الذكاء الاصطناعي التوليدي في إنتاج المحتوى التعليمي الرقمي
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2 leading-relaxed">
+              تطبيقات عملية لنماذج اللغة الكبيرة في صياغة سيناريوهات التعلم التفاعلي، وتوليد الأنشطة الأكاديمية المصممة فردياً.
+            </p>
+</div>
+<!-- Professor & Action Area -->
+<div class="pt-space-sm space-y-space-md">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover shadow-sm" data-alt="Professional headshot of a respected Middle Eastern male university professor with spectacles wearing modern academic dark blazer, friendly scholarly expression, warm studio lighting with subtle lavender backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8L6CAEsYCaLpWcHWunhTblZDEekmY6TE-vln7Y45zMzetMtbsXnXCO4wVO7gjvKxOx_YEZ8GqhGaDYkoWmesliesq-cu3x_NZ2fU1L1PPvDtc9JdqQucsj6YzxgcuNm1ZEnAezOR5P0v-ylMkGOLK5UJZyLWushJo4YuDl1L-JgodRfDZZpUTRvA4_bIIL925lkqi4oxSdwZqG6BN5lnGANu4glQCBPtCi0C2Dws"/>
+<div>
+<span class="block font-label-md text-label-md font-semibold text-on-surface">د. أشرف البرادعي</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">أستاذ تقنيات التعلم والذكاء الاصطناعي</span>
+</div>
+</div>
+</div>
+<a class="w-full flex items-center justify-center gap-space-sm py-2.5 px-space-md rounded-xl bg-tertiary text-on-tertiary font-label-md text-label-md hover:bg-tertiary-container shadow-[0_8px_16px_-4px_rgba(0,111,75,0.3)] transition-all" href="#">
+<span class="material-symbols-outlined text-title-md">meeting_room</span>
+<span>دخول البث التفاعلي الفوري</span>
+</a>
+</div>
+</div>
+</article>
+<!-- CARD 2: UPCOMING - Dr. Tamer Kamel -->
+<article class="lecture-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_12px_32px_-8px_rgba(105,86,150,0.06)] hover:shadow-[0_20px_40px_-12px_rgba(105,86,150,0.14)] transition-all" data-professor="tamer" data-specialty="instructional-design" data-status="upcoming">
+<!-- Thumbnail -->
+<div class="relative w-full aspect-video overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Students interacting with modern mobile devices and sleek educational tablets showcasing adaptive graphs and custom user paths in a serene library interior, minimalist violet hues, gentle depth of field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4ZzLhiI2WjIkFSFbkr1Kg9EIij7lTUBGqlAMS0lcCanrUeVSLVAxbV5y2qW2NBCk3gytIlZtQiG2YPYLLujNhYafXUWpTbLN-1NR0ViWMwpRBr0Mpi6yjzoSlAJFzDnGD3L08nekSzp0PZWUZpoYBVk-euI9FKc2GhGp-po660gLasHbiqQaiL15yiFcsk4WYAJ6AP8UlRgZQNuppT1PRzyvvo_1bpYLaArG9lDk"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent"></div>
+<!-- Upcoming Badge -->
+<div class="absolute top-space-sm right-space-sm flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-secondary-container/90 text-on-secondary-container font-label-sm text-label-sm backdrop-blur-md shadow-sm">
+<span class="material-symbols-outlined text-label-md">event_available</span>
+<span class="font-semibold">قادمة: غداً 10:00 ص</span>
+</div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1 px-space-sm py-1 rounded-full bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm backdrop-blur-md">
+<span class="material-symbols-outlined text-label-md text-secondary">hourglass_top</span>
+<span>المدة: 90 دقيقة</span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm left-space-sm flex items-center justify-between text-on-primary">
+<span class="px-space-sm py-0.5 rounded-md bg-secondary/85 font-label-sm text-label-sm backdrop-blur-sm">
+              التعلم المتنقل والتكيفي
+            </span>
+<span class="font-label-sm text-label-sm text-surface-container-high">
+              متاح 42 مقعداً
+            </span>
+</div>
+</div>
+<!-- Body -->
+<div class="p-space-lg flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span class="flex items-center gap-1 text-secondary font-semibold">
+<span class="material-symbols-outlined text-label-md">calendar_today</span>
+                الأربعاء 15 أكتوبر 2025
+              </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-medium">مستوى متوسط</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold line-clamp-2 leading-snug group-hover:text-primary transition-colors">
+              تصميم بيئات التعلم التكيفية والمخصص بالهواتف الذكية
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2 leading-relaxed">
+              بناء معمارية رقمية تسمح للنظام بتغيير صعوبة المحتوى والأنشطة بناءً على معدل استجابة المتعلم وتحليلات التعلم النقال.
+            </p>
+</div>
+<div class="pt-space-sm space-y-space-md">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover shadow-sm" data-alt="Portrait of an experienced male university lecturer with distinguished silver-black hair, wearing a sleek academic dark suit, standing in an elegant conference environment with warm lavender lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlRry43YR4tcdryAqscHUWmyjOuPENueCEB8z8CCdBd_pxfscBXr8rsk0PEEdc431WEH5GqPAvkaki2u4ZFv2EC7lrBJbkewOzZlYvsG5gcmAxvi2vpO-tZIcRXO_ZUpiVs_6y0V54P8B7sTjQeIOaSMOaH5CoaEZQ3u-tpUCTAOxy4W6vwVd651hUscwTpdpoIDVnE6vV9e3Q3wCjKhoppcJ40Em-P0e70N3UksE"/>
+<div>
+<span class="block font-label-md text-label-md font-semibold text-on-surface">د. تامر كامل</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">أستاذ هندسة التعلم الرقمي والبيئات الذكية</span>
+</div>
+</div>
+</div>
+<button class="w-full flex items-center justify-center gap-space-sm py-2.5 px-space-md rounded-xl bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary shadow-[0_8px_16px_-4px_rgba(105,86,150,0.3)] transition-all">
+<span class="material-symbols-outlined text-title-md">notifications_active</span>
+<span>حجز المقعد وتفعيل التنبيه المسبق</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 3: RECORDED - Dr. Sara Abdulrahman -->
+<article class="lecture-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_12px_32px_-8px_rgba(105,86,150,0.06)] hover:shadow-[0_20px_40px_-12px_rgba(105,86,150,0.14)] transition-all" data-professor="sara" data-specialty="instructional-design" data-status="recorded">
+<!-- Thumbnail -->
+<div class="relative w-full aspect-video overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Digital graphic representation of instructional design rubrics, Quality Matters review checklist on screen, clean academic desktop with books and tablet, subtle purple tones, calm scholarly aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJr4rRbRatEfcoSMYWhlyprTPX0peUloIA658SJhNSIh1B4mnajA1XKizTnkmjMyxfTfqbv_L2__7z0lC_Cs4sROF66xVjrL-BVKxGqkCdrdTSvPBoyl5e9QewxNmzZOI8xA3_cKlc0iDYp3Ul-2vw2LpqT3Ui3GZdKfKDFq0BAqvZkAFFMfYNbtmkfWr-HyPlQCioMY5NQfYNhkOAEIDPabNhxnYuo5t8fAIuznY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent"></div>
+<!-- Recorded Badge -->
+<div class="absolute top-space-sm right-space-sm flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container-highest/90 text-on-surface font-label-sm text-label-sm backdrop-blur-md shadow-sm">
+<span class="material-symbols-outlined text-label-md text-primary">play_circle</span>
+<span class="font-semibold">تسجيل عالي الدقة 4K</span>
+</div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1 px-space-sm py-1 rounded-full bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm backdrop-blur-md">
+<span class="material-symbols-outlined text-label-md text-primary">picture_as_pdf</span>
+<span>مرفقات PDF متاحة</span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm left-space-sm flex items-center justify-between text-on-primary">
+<span class="px-space-sm py-0.5 rounded-md bg-primary-container/85 font-label-sm text-label-sm backdrop-blur-sm">
+              تصميم المقررات ومعايير الجودة
+            </span>
+<span class="font-label-sm text-label-sm text-surface-container-high">
+              105 دقيقة
+            </span>
+</div>
+</div>
+<!-- Body -->
+<div class="p-space-lg flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span class="flex items-center gap-1 text-on-surface-variant font-medium">
+<span class="material-symbols-outlined text-label-md">history_toggle_off</span>
+                تم البث في: 10 أكتوبر 2025
+              </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-medium">مستوى متقدم</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold line-clamp-2 leading-snug group-hover:text-primary transition-colors">
+              معايير تصميم وتطوير المقررات الإلكترونية وفق Quality Matters
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2 leading-relaxed">
+              شرح معايير الاعتماد الأكاديمي الدولي للمقررات الإلكترونية، وضبط مصفوفة التوافق بين الأهداف التعليمية والأنشطة والتقييم.
+            </p>
+</div>
+<div class="pt-space-sm space-y-space-md">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover shadow-sm" data-alt="Professional female university professor with elegant hijab, confident pleasant academic appearance, soft neutral and lavender professional studio setup, modern educational leader" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBMEiikLsMIYm3DIHAOvmqjT9sI_NJ0wZ2iImainrK1tESZ2dSo5obJ91GDXe9TwLMez-Xh7BkfFXuqYjIr9n_8qIqh32eJDh4gC37ZQfyD0Zf6ygWPrUBQjCZnUzXhGJYgyzd84g8RwhnlDtGSx0XLbAAWjJIXGYpu_eDA_xJ6FkuRjE8ZkwA3cTyhK2bXvfAxUOfd_WPnguKqBUOAMw2rvuIEuWsSnThMFOVnRU"/>
+<div>
+<span class="block font-label-md text-label-md font-semibold text-on-surface">د. سارة عبد الرحمن</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">مستشارة الاعتماد الأكاديمي وتصميم المقررات</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<a class="flex items-center justify-center gap-1 py-2.5 px-space-sm rounded-xl bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-md text-label-md transition-colors" href="#">
+<span class="material-symbols-outlined text-title-md">play_arrow</span>
+<span>مشاهدة التسجيل</span>
+</a>
+<a class="flex items-center justify-center gap-1 py-2.5 px-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container text-primary font-label-md text-label-md transition-colors" href="#">
+<span class="material-symbols-outlined text-title-md">download</span>
+<span>الحقيبة (PDF)</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+<!-- CARD 4: RECORDED - Dr. Tamer Kamel (VR/AR) -->
+<article class="lecture-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_12px_32px_-8px_rgba(105,86,150,0.06)] hover:shadow-[0_20px_40px_-12px_rgba(105,86,150,0.14)] transition-all" data-professor="tamer" data-specialty="vr-ar" data-status="recorded">
+<!-- Thumbnail -->
+<div class="relative w-full aspect-video overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A student wearing a sleek virtual reality headset exploring an intricate digital chemistry and biology simulation laboratory, holographic molecular models floating in air, lavender and electric teal accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBn4MHqeK3zDztzWkbrxcGUOjzo7MaQ7m0V7cPjJT6l1lOQdfVaVHLPLsYH833LKKu-XCFiJ8XrmXJ5RzLEakWA59P60NO8RZYz7WO5RJKn5ZNofTsp45FMxNNzdGDlDJ3PzxKlsNsg1xdXgq3Cos5P7dLreLOtRfwBE5TehHOO3lIyUwUfdUG2vwLm2Rw4RthklwTi8fxrHB7R9F3ESU4KV74AoLo_TW2-LXWL11E"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent"></div>
+<!-- Badge -->
+<div class="absolute top-space-sm right-space-sm flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container-highest/90 text-on-surface font-label-sm text-label-sm backdrop-blur-md shadow-sm">
+<span class="material-symbols-outlined text-label-md text-primary">videocam</span>
+<span class="font-semibold">تسجيل ورشة تدريبية</span>
+</div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1 px-space-sm py-1 rounded-full bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm backdrop-blur-md">
+<span class="material-symbols-outlined text-label-md text-secondary">co_present</span>
+<span>شرائح العرض متاحة</span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm left-space-sm flex items-center justify-between text-on-primary">
+<span class="px-space-sm py-0.5 rounded-md bg-secondary/85 font-label-sm text-label-sm backdrop-blur-sm">
+              الواقع الافتراضي والمعزز
+            </span>
+<span class="font-label-sm text-label-sm text-surface-container-high">
+              120 دقيقة
+            </span>
+</div>
+</div>
+<!-- Body -->
+<div class="p-space-lg flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span class="flex items-center gap-1 text-on-surface-variant font-medium">
+<span class="material-symbols-outlined text-label-md">history_toggle_off</span>
+                تم البث في: 28 سبتمبر 2025
+              </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-medium">مستوى تخصصي</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold line-clamp-2 leading-snug group-hover:text-primary transition-colors">
+              الواقع الافتراضي وتطبيقاته العملية في المختبرات التعليمية
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2 leading-relaxed">
+              كيفية بناء سيناريوهات المحاكاة للبيئات الخطرة والمختبرات الطبية والهندسية الافتراضية بأقل تكلفة تشغيلية.
+            </p>
+</div>
+<div class="pt-space-sm space-y-space-md">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover shadow-sm" data-alt="Portrait of an experienced male university lecturer with distinguished silver-black hair, wearing a sleek academic dark suit, standing in an elegant conference environment with warm lavender lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgU84vXRsPnBoZ1tSqozSe_4JRT-Qt0mcSMavWGL5vF-AOEZw_vM5-wMqINTbw8AAkCAECgYDKnJ0g-Sf1vEcw_tAyt89Fxpfe5MUkGAOw7pBge1gP35NamDkUMhLrZnPlDMbqNJ73npMfkimZck7YjFXtPvB12fs31NRmiKylaLTsO0X8Qp39mimcTGeQ7jp-GrdJp7YWBXYgKJHcK74HZT4Q250UQwWnSM_7xCE"/>
+<div>
+<span class="block font-label-md text-label-md font-semibold text-on-surface">د. تامر كامل</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">أستاذ تقنيات الواقع المعزز والبيئات ثلاثية الأبعاد</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<a class="flex items-center justify-center gap-1 py-2.5 px-space-sm rounded-xl bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-md text-label-md transition-colors" href="#">
+<span class="material-symbols-outlined text-title-md">play_arrow</span>
+<span>بدء المشاهدة</span>
+</a>
+<a class="flex items-center justify-center gap-1 py-2.5 px-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container text-primary font-label-md text-label-md transition-colors" href="#">
+<span class="material-symbols-outlined text-title-md">slideshow</span>
+<span>سلايدات العرض</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+<!-- CARD 5: UPCOMING - Dr. Ashraf El-Baradei (LMS) -->
+<article class="lecture-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_12px_32px_-8px_rgba(105,86,150,0.06)] hover:shadow-[0_20px_40px_-12px_rgba(105,86,150,0.14)] transition-all" data-professor="ashraf" data-specialty="lms" data-status="upcoming">
+<!-- Thumbnail -->
+<div class="relative w-full aspect-video overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A modern software dashboard display representing open source Learning Management System architecture, code nodes and student progress metrics displayed on multiple monitors, elegant lavender illumination" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANBbAlvV6Hgxj4aMqyuR33Jbo5I4XYkKrGC3gjR3MDuOOOtKNlDCESv4_DHpaJXlbpUX4KUSzBMmJAC1o7uRdd7-KDdXkSYWxaiiRtmpahCBCNPjDcEs_b0ZWNH5zI3Ho5fCe0I5oA0oF6FNfPBmRTxEMe3jRmUd34Spb1400sJORORA7NoU-nfPVTPtnzkGw7rspX-ZpQ91vQYJP_95A47n8tDQZ7wXkXTmK9lSI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent"></div>
+<!-- Upcoming Badge -->
+<div class="absolute top-space-sm right-space-sm flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-secondary-container/90 text-on-secondary-container font-label-sm text-label-sm backdrop-blur-md shadow-sm">
+<span class="material-symbols-outlined text-label-md">schedule</span>
+<span class="font-semibold">الخميس القادم 6:00 م</span>
+</div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1 px-space-sm py-1 rounded-full bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm backdrop-blur-md">
+<span class="material-symbols-outlined text-label-md text-secondary">timer</span>
+<span>المدة: 75 دقيقة</span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm left-space-sm flex items-center justify-between text-on-primary">
+<span class="px-space-sm py-0.5 rounded-md bg-primary-container/85 font-label-sm text-label-sm backdrop-blur-sm">
+              أنظمة إدارة التعلم (LMS)
+            </span>
+<span class="font-label-sm text-label-sm text-surface-container-high">
+              متاح 90 مقعداً
+            </span>
+</div>
+</div>
+<!-- Body -->
+<div class="p-space-lg flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span class="flex items-center gap-1 text-secondary font-semibold">
+<span class="material-symbols-outlined text-label-md">calendar_today</span>
+                الخميس 16 أكتوبر 2025
+              </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-medium">مستوى للمبتدئين والمشرفين</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold line-clamp-2 leading-snug group-hover:text-primary transition-colors">
+              نظم إدارة التعلم المفتوحة المصدر (Moodle &amp; Canvas LMS)
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2 leading-relaxed">
+              مقارنة معمارية وشاملة بين أنظمة مودل وكانفاس، تخصيص واجهات المستخدم، وربط مستودعات المحتوى الرقمي ببروتوكول LTI.
+            </p>
+</div>
+<div class="pt-space-sm space-y-space-md">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover shadow-sm" data-alt="Professional headshot of a respected Middle Eastern male university professor with spectacles wearing modern academic dark blazer, friendly scholarly expression, warm studio lighting with subtle lavender backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3-sBA5q6T0bSwOyFQiHXVXahpjehd2ZiUB9iHmVbdv51n7bu-dVS-R7JW0re6RP5XmyiH0dKYDm4wvxyTTx5PaC6bKW5uvzpV7QYuQ7NfBWJsiGKG3ssIZMoQYgZGd3vuYFZdRrqNA-QpXEDBixz6Xhh-Ss_IlLnkdxJjn7GMVr65LJBLRmS6Ah49kaIHv4GvOs7dGS4wxm27a-8tnvXfQHSbEeiskpnIOVo1pls"/>
+<div>
+<span class="block font-label-md text-label-md font-semibold text-on-surface">د. أشرف البرادعي</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">خبير البنى التحتية للمنصات الرقمية</span>
+</div>
+</div>
+</div>
+<button class="w-full flex items-center justify-center gap-space-sm py-2.5 px-space-md rounded-xl bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary shadow-[0_8px_16px_-4px_rgba(105,86,150,0.3)] transition-all">
+<span class="material-symbols-outlined text-title-md">bookmark_add</span>
+<span>تسجيل في الجلسة والحصول على الرابط</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 6: RECORDED - Dr. Mahmoud El-Issa (Assessment) -->
+<article class="lecture-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_12px_32px_-8px_rgba(105,86,150,0.06)] hover:shadow-[0_20px_40px_-12px_rgba(105,86,150,0.14)] transition-all" data-professor="mahmoud" data-specialty="assessment" data-status="recorded">
+<!-- Thumbnail -->
+<div class="relative w-full aspect-video overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Computerized academic testing and psychometric evaluation analytics on screens, statistical item-response theory graphs, serene study hall setting with soft violet and neutral tone lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSFOAjEzedM7PojpmXGMD65dc_-biIO8TNiSuer8YXpllJn2UpwRx13T6yFZmWHWaq6_5MlNvVrprMMrYv6XxJ2Ic_bcBhZLZfRYeL4mlx9YPQZVKOaUcXYddDomd-3qoDPmF1a7syfsPMxN6HGcdNU3BCc1c7JrM-ll3pnSxrnV_wGUz46vFutARHzRnWXkjAbe_Uj892iCcxMWAMhKDBNH3KK_EgYXAoP1GjgYc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent"></div>
+<!-- Recorded Badge -->
+<div class="absolute top-space-sm right-space-sm flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container-highest/90 text-on-surface font-label-sm text-label-sm backdrop-blur-md shadow-sm">
+<span class="material-symbols-outlined text-label-md text-primary">play_circle</span>
+<span class="font-semibold">تسجيل مؤرشف كامل</span>
+</div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1 px-space-sm py-1 rounded-full bg-surface-container-lowest/80 text-on-surface font-label-sm text-label-sm backdrop-blur-md">
+<span class="material-symbols-outlined text-label-md text-primary">quiz</span>
+<span>نماذج الاختبارات متوفرة</span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm left-space-sm flex items-center justify-between text-on-primary">
+<span class="px-space-sm py-0.5 rounded-md bg-secondary-container/90 text-on-secondary-container font-label-sm text-label-sm backdrop-blur-sm">
+              التقويم والقياس المحوسب
+            </span>
+<span class="font-label-sm text-label-sm text-surface-container-high">
+              95 دقيقة
+            </span>
+</div>
+</div>
+<!-- Body -->
+<div class="p-space-lg flex-1 flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span class="flex items-center gap-1 text-on-surface-variant font-medium">
+<span class="material-symbols-outlined text-label-md">history_toggle_off</span>
+                تم البث في: 15 سبتمبر 2025
+              </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-medium">مستوى متقدم</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold line-clamp-2 leading-snug group-hover:text-primary transition-colors">
+              التقويم الإلكتروني وبناء بنوك الأسئلة المحوسبة
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2 leading-relaxed">
+              معايير صياغة المفردات الاختبارية، حساب معاملات الصعوبة والتمييز وفق النظرية الحديثة للقياس (IRT)، والتصحيح الآلي للتقارير.
+            </p>
+</div>
+<div class="pt-space-sm space-y-space-md">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover shadow-sm" data-alt="Academic portrait of a distinguished senior Middle Eastern male professor with gentle confident demeanor, wearing tailored dark charcoal blazer, soft violet light reflecting in office background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqLiKlK-Xw4As2FCizpEIivjjSCe47IWsLGVZO34MeTOStPJ4Pq4hUks4jseXaJJwWMFI3H02trgx_goHiRtvY87z_7cHdbuQNzMpLa6tT-nUXhuaGbeO3E3CTsBiqldgnlHn5qEfqdcTuIkboPEyxmTryk6hoAO5h1hosrz_WsuuVP7OWzB3tZtNyWE_L50Wo4qcQaKGTPL9ZCBexymMY3-A3djlRHmkG6fPi4BQ"/>
+<div>
+<span class="block font-label-md text-label-md font-semibold text-on-surface">د. محمود العيسى</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">أستاذ القياس والتقويم التربوي</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<a class="flex items-center justify-center gap-1 py-2.5 px-space-sm rounded-xl bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-md text-label-md transition-colors" href="#">
+<span class="material-symbols-outlined text-title-md">play_arrow</span>
+<span>مشاهدة المحاضرة</span>
+</a>
+<a class="flex items-center justify-center gap-1 py-2.5 px-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container text-primary font-label-md text-label-md transition-colors" href="#">
+<span class="material-symbols-outlined text-title-md">description</span>
+<span>بنك الأسئلة (نموذج)</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+</div>
+<!-- Empty State for Search/Filter fallback -->
+<div class="hidden w-full py-space-xl text-center bg-surface-container-lowest rounded-xl shadow-sm p-space-xl space-y-space-md" id="noResultsState">
+<div class="w-16 h-16 mx-auto rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined text-headline-xl">search_off</span>
+</div>
+<div class="space-y-space-xs max-w-md mx-auto">
+<h4 class="font-headline-md text-headline-md text-on-surface font-bold">لم نجد محاضرات مطابقة لخيارات الفلترة</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          يرجى تجربة كلمات بحث أخرى أو تغيير معايير التخصص وحالة المحاضرة لإظهار المزيد من النتائج الأكاديمية.
+        </p>
+</div>
+<button class="px-space-lg py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md" id="resetFromEmptyBtn">
+        إعادة إظهار كل المحاضرات
+      </button>
+</div>
+<!-- Pagination & Bottom Utility Bar -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-md pb-space-lg">
+<div class="font-label-md text-label-md text-on-surface-variant">
+        عرض <span class="font-semibold text-on-surface">1 - 6</span> من إجمالي <span class="font-semibold text-on-surface">6</span> محاضرات متاحة في هذا الفصل
+      </div>
+<div class="flex items-center gap-space-xs">
+<button class="w-10 h-10 rounded-xl bg-surface-container-low text-on-surface-variant/40 flex items-center justify-center cursor-not-allowed" disabled="" title="الصفحة السابقة">
+<span class="material-symbols-outlined text-title-md">chevron_right</span>
+</button>
+<button class="w-10 h-10 rounded-xl bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center shadow-sm">
+          1
+        </button>
+<button class="w-10 h-10 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md flex items-center justify-center transition-colors">
+          2
+        </button>
+<button class="w-10 h-10 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md flex items-center justify-center transition-colors">
+          3
+        </button>
+<button class="w-10 h-10 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface flex items-center justify-center transition-colors" title="الصفحة التالية">
+<span class="material-symbols-outlined text-title-md">chevron_left</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+    (function initLectureFilters() {
+      const searchInput = document.getElementById('lectureSearchInput');
+      const clearBtn = document.getElementById('clearSearchBtn');
+      const professorFilter = document.getElementById('professorFilter');
+      const specialtyFilter = document.getElementById('specialtyFilter');
+      const resetBtn = document.getElementById('resetAllFilters');
+      const resetFromEmptyBtn = document.getElementById('resetFromEmptyBtn');
+      const statusButtons = document.querySelectorAll('.filter-status-btn');
+      const lectureCards = document.querySelectorAll('.lecture-card');
+      const displayCounter = document.getElementById('activeCountDisplay');
+      const noResults = document.getElementById('noResultsState');
+
+      let currentStatus = 'all';
+
+      function applyFilter() {
+        const query = searchInput.value.trim().toLowerCase();
+        const selectedProf = professorFilter.value;
+        const selectedSpecialty = specialtyFilter.value;
+
+        if (query.length > 0) {
+          clearBtn.classList.remove('hidden');
+        } else {
+          clearBtn.classList.add('hidden');
+        }
+
+        let visibleCount = 0;
+
+        lectureCards.forEach(card => {
+          const cardStatus = card.getAttribute('data-status');
+          const cardProf = card.getAttribute('data-professor');
+          const cardSpecialty = card.getAttribute('data-specialty');
+          const cardText = card.innerText.toLowerCase();
+
+          const matchesStatus = (currentStatus === 'all') || (cardStatus === currentStatus);
+          const matchesProf = (selectedProf === 'all') || (cardProf === selectedProf);
+          const matchesSpecialty = (selectedSpecialty === 'all') || (cardSpecialty === selectedSpecialty);
+          const matchesQuery = (query === '') || (cardText.includes(query));
+
+          if (matchesStatus && matchesProf && matchesSpecialty && matchesQuery) {
+            card.style.display = 'flex';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        displayCounter.innerText = `يتم عرض ${visibleCount} من أصل 6 محاضرات`;
+
+        if (visibleCount === 0) {
+          noResults.classList.remove('hidden');
+        } else {
+          noResults.classList.add('hidden');
+        }
+      }
+
+      // Status pill clicks
+      statusButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          statusButtons.forEach(b => {
+            b.classList.remove('bg-primary', 'text-on-primary');
+            b.classList.add('bg-surface-container', 'text-on-surface-variant');
+          });
+          btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+          btn.classList.add('bg-primary', 'text-on-primary');
+
+          currentStatus = btn.getAttribute('data-status');
+          applyFilter();
+        });
+      });
+
+      // Events
+      searchInput.addEventListener('input', applyFilter);
+      professorFilter.addEventListener('change', applyFilter);
+      specialtyFilter.addEventListener('change', applyFilter);
+
+      clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        applyFilter();
+      });
+
+      function resetAll() {
+        searchInput.value = '';
+        professorFilter.value = 'all';
+        specialtyFilter.value = 'all';
+        currentStatus = 'all';
+
+        statusButtons.forEach(b => {
+          if (b.getAttribute('data-status') === 'all') {
+            b.classList.remove('bg-surface-container', 'text-on-surface-variant');
+            b.classList.add('bg-primary', 'text-on-primary');
+          } else {
+            b.classList.remove('bg-primary', 'text-on-primary');
+            b.classList.add('bg-surface-container', 'text-on-surface-variant');
+          }
+        });
+
+        applyFilter();
+      }
+
+      resetBtn.addEventListener('click', resetAll);
+      resetFromEmptyBtn.addEventListener('click', resetAll);
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface pt-space-xl pb-space-lg shadow-[0_-4px_24px_rgba(105,86,150,0.04)]"><div class="w-full px-gutter"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl pb-space-xl"><div class="lg:col-span-2 space-y-space-md"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center text-on-primary shadow-sm"><span class="material-symbols-outlined text-title-lg">school</span></div><span class="font-headline-md text-headline-md text-primary font-bold">إيدوتك</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">منصة تعليمية وتكنولوجية متقدمة مصممة خصيصاً للدراسات العليا والمحاضرات الجامعية التفاعلية، تجمع بين الذكاء الصوتي، جودة العرض الفائقة، والبيئة الأكاديمية الهادئة والمحفزة.</p><div class="flex items-center gap-space-sm pt-space-xs"><a class="w-9 h-9 rounded-full bg-surface-container hover:bg-primary-container hover:text-on-primary text-on-surface-variant flex items-center justify-center transition-all" href="#"><span class="material-symbols-outlined text-body-lg">public</span></a><a class="w-9 h-9 rounded-full bg-surface-container hover:bg-primary-container hover:text-on-primary text-on-surface-variant flex items-center justify-center transition-all" href="#"><span class="material-symbols-outlined text-body-lg">alternate_email</span></a><a class="w-9 h-9 rounded-full bg-surface-container hover:bg-primary-container hover:text-on-primary text-on-surface-variant flex items-center justify-center transition-all" href="#"><span class="material-symbols-outlined text-body-lg">share</span></a><a class="w-9 h-9 rounded-full bg-surface-container hover:bg-primary-container hover:text-on-primary text-on-surface-variant flex items-center justify-center transition-all" href="#"><span class="material-symbols-outlined text-body-lg">podcasts</span></a></div></div><div><h4 class="font-title-md text-title-md text-on-surface font-semibold mb-space-md">الأقسام الأكاديمية</h4><ul class="space-y-space-sm font-body-md text-body-md text-on-surface-variant"><li class="hover:text-primary transition-colors cursor-pointer"><a href="#">محاضرات الذكاء الاصطناعي</a></li><li class="hover:text-primary transition-colors cursor-pointer"><a href="#">الهندسة والبرمجيات</a></li><li class="hover:text-primary transition-colors cursor-pointer"><a href="#">العلوم الطبية الحيوية</a></li><li class="hover:text-primary transition-colors cursor-pointer"><a href="#">إدارة الأعمال والقيادة</a></li><li class="hover:text-primary transition-colors cursor-pointer"><a href="#">أرشيف الندوات السابقة</a></li></ul></div><div><h4 class="font-title-md text-title-md text-on-surface font-semibold mb-space-md">الدعم والإرشاد</h4><ul class="space-y-space-sm font-body-md text-body-md text-on-surface-variant"><li class="hover:text-primary transition-colors cursor-pointer"><a href="#">مركز المساعدة الأكاديمي</a></li><li class="hover:text-primary transition-colors cursor-pointer"><a href="#">متطلبات تشغيل القاعة</a></li><li class="hover:text-primary transition-colors cursor-pointer"><a href="#">إرشادات المشاركة والمكالمات</a></li><li class="hover:text-primary transition-colors cursor-pointer"><a href="#">الأسئلة الشائعة للطلاب</a></li><li class="hover:text-primary transition-colors cursor-pointer"><a href="#">بوابة الأساتذة والمشرفين</a></li></ul></div><div><h4 class="font-title-md text-title-md text-on-surface font-semibold mb-space-md">السياسات والشروط</h4><ul class="space-y-space-sm font-body-md text-body-md text-on-surface-variant"><li class="hover:text-primary transition-colors cursor-pointer"><a href="#">سياسة الاستخدام والخصوصية</a></li><li class="hover:text-primary transition-colors cursor-pointer"><a href="#">حقوق الملكية الفكرية</a></li><li class="hover:text-primary transition-colors cursor-pointer"><a href="#">ميثاق النزاهة الأكاديمية</a></li><li class="hover:text-primary transition-colors cursor-pointer"><a href="#">معايير الأمان والتشفير</a></li></ul></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-label-md text-label-md text-on-surface-variant"><p>© 2025 منصة إيدوتك للتعليم العالي (EdTech). جميع الحقوق محفوظة.</p><div class="flex items-center gap-space-lg"><span>نظام معتمد أكاديمياً</span><span class="inline-block w-1.5 h-1.5 rounded-full bg-tertiary"></span><span>خوادم متصلة وآمنة</span></div></div></div></footer><!-- Login Modal -->
+<div id="loginModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
+  <div class="bg-surface-container-lowest rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl space-y-6 relative border border-outline-variant/30 text-right">
+    <button id="closeLoginModal" class="absolute top-4 left-4 w-8 h-8 rounded-full bg-surface-container-high hover:bg-surface-variant flex items-center justify-center text-on-surface transition-colors">
+      <span class="material-symbols-outlined text-title-md">close</span>
+    </button>
+    <div class="text-center space-y-2">
+      <div class="w-12 h-12 rounded-2xl bg-primary-container text-on-primary mx-auto flex items-center justify-center shadow-md">
+        <span class="material-symbols-outlined text-2xl">school</span>
+      </div>
+      <h3 class="font-headline-md text-headline-md font-bold text-on-surface">تسجيل الدخول الأكاديمي</h3>
+      <p class="font-body-md text-body-md text-on-surface-variant">مرحباً بك في منصة إيدوتك للدراسات العليا</p>
+    </div>
+    <form id="loginForm" class="space-y-4">
+      <div class="space-y-1.5">
+        <label class="font-label-md text-label-md font-medium text-on-surface">البريد الإلكتروني الجامعي</label>
+        <div class="relative">
+          <span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-lg">mail</span>
+          <input required type="email" placeholder="student@university.edu" class="w-full pr-10 pl-4 py-2.5 rounded-xl bg-surface-container-low focus:bg-surface-container-lowest text-on-surface border border-outline-variant/30 focus:border-primary focus:ring-2 focus:ring-primary/25 outline-none font-body-md text-body-md transition-all"/>
+        </div>
+      </div>
+      <div class="space-y-1.5">
+        <label class="font-label-md text-label-md font-medium text-on-surface">كلمة المرور</label>
+        <div class="relative">
+          <span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-lg">lock</span>
+          <input required type="password" placeholder="••••••••" class="w-full pr-10 pl-4 py-2.5 rounded-xl bg-surface-container-low focus:bg-surface-container-lowest text-on-surface border border-outline-variant/30 focus:border-primary focus:ring-2 focus:ring-primary/25 outline-none font-body-md text-body-md transition-all"/>
+        </div>
+      </div>
+      <div class="flex items-center justify-between text-xs text-on-surface-variant">
+        <label class="flex items-center gap-1.5 cursor-pointer">
+          <input type="checkbox" class="rounded text-primary focus:ring-primary"/>
+          <span>تذكرني</span>
+        </label>
+        <a href="#" class="text-primary hover:underline font-medium">نسيت كلمة المرور؟</a>
+      </div>
+      <button type="submit" class="w-full py-3 rounded-xl bg-primary text-on-primary font-title-md text-title-md font-semibold hover:bg-primary-container transition-all shadow-md">
+        دخول للمنصة
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- Toast Container -->
+<div id="toastNotification" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 px-5 py-3 rounded-full bg-inverse-surface text-inverse-on-surface font-body-md text-body-md shadow-2xl flex items-center gap-3 transition-all duration-300 opacity-0 pointer-events-none translate-y-6">
+  <span id="toastIcon" class="material-symbols-outlined text-tertiary-fixed text-title-md">check_circle</span>
+  <span id="toastMessage">تمت العملية بنجاح</span>
+</div>
+
+<!-- Main Application JS -->
+<script src="js/main.js"></script>
+<!-- Firebase Modular Integration -->
+<script type="module" src="js/firebase-config.js"></script>
+</body></html>
